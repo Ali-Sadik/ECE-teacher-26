@@ -30,7 +30,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "*pannel/public/*.ico",
+      "src": "*pannel/*.ico",
       "use": "@vercel/static"
     },
     {
