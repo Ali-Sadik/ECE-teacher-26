@@ -13,17 +13,16 @@
       "src": "*.png",
       "use": "@vercel/static"
     },
-      {
-      "src": "*pannel/public/.png",
+    {
+      "src": "*pannel/public/*.png",
       "use": "@vercel/static"
     },
-      },
-      {
-      "src": "*pannel/public/.ico",
+    {
+      "src": "*pannel/public/*.ico",
       "use": "@vercel/static"
     },
-      {
-      "src": "*edit/.ico",
+    {
+      "src": "*edit/*.ico",
       "use": "@vercel/static"
     }
   ],
@@ -34,3 +33,4 @@
     }
   ]
 }
+
