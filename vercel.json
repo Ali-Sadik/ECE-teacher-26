@@ -1,24 +1,36 @@
 {
-    "version": 2,
-    "builds": [
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.png",
+      "use": "@vercel/static"
+    },
       {
-        "src": "*.html",
-        "use": "@vercel/static"
+      "src": "*pannel/public/.png",
+      "use": "@vercel/static"
+    },
       },
       {
-        "src": "*.css",
-        "use": "@vercel/static"
-      },
+      "src": "*pannel/public/.ico",
+      "use": "@vercel/static"
+    },
       {
-        "src": "*.png",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "app.js"
-      }
-    ]
-  }
-  
+      "src": "*edit/.ico",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
