@@ -6,6 +6,14 @@
       "use": "@vercel/static"
     },
     {
+      "src": "pannel/pannel.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "edit/edit.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "*.css",
       "use": "@vercel/static"
     },
