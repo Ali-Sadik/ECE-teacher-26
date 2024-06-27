@@ -84,11 +84,11 @@ function handleButtonClick() {
     if (window.innerWidth < 768) {
         // Show progress bar before redirecting
         showProgressBar(function () {
-            window.location.href = 'http://192.168.102:3012';
+            window.location.href = 'pannel/pannel.html';
         });
     } else {
         // Open the modal
-        navigateToAndOpenModal('http://localhost:3012');
+        navigateToAndOpenModal('pannel/pannel.html');
     }
 }
 
@@ -96,11 +96,11 @@ function handleButtonClick2() {
     if (window.innerWidth < 768) {
         // Show progress bar before redirecting
         showProgressBar(function () {
-            window.location.href = 'http://192.168.102:3012';
+            window.location.href = 'https://faculty-members-ece.vercel.app/';
         });
     } else {
         // Open the modal
-        navigateToAndOpenModal2('http://localhost:3011');
+        navigateToAndOpenModal2('https://faculty-members-ece.vercel.app/');
     }
 }
 
