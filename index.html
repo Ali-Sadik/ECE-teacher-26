@@ -66,6 +66,13 @@
         </div>
       </div>
     </div>
+    <div class="toggle-container">
+    <p class="darktext">Dark mode</p>
+    <label class="toggle-switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+  </div>
     <div class="footer">
       ©2024, Designed and developed by
       <a
@@ -76,6 +83,19 @@
       >(ECE, KUET). Powered by Central Computer Center(KUET). All rights
       reserved.
     </div>
+    <!-- Modal -->
+  <div id="filesModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <iframe src="pannel/pannel.html" class="frame"></iframe>
+    </div>
+  </div>
+  <div id="profileModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal2()">&times;</span>
+      <iframe src="edit/edit.html" class="frame"></iframe>
+    </div>
+  </div>
     <script src="scripts.js"></script>
     <script>
       // Function to show progress bar for 1 second
