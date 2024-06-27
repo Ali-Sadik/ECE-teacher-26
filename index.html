@@ -29,27 +29,19 @@
         </div>
       </div>
       <div class="options">
-        <button
-          class="status"
-          onclick="navigateTo('pannel/pannel.html')"
-        >
-          <img src="folder.png" alt="" class="btn-img" />
-          <span></span>
-        </button>
-        <button
-          class="status"
-          onclick="navigateTo('https://faculty-members-ece.vercel.app/')"
-        >
-          <img src="profile.png" alt="" class="btn-img" />
-          <span></span>
-        </button>
-        <button
-          class="status"
-          onclick="navigateTo('edit/edit.html')"
-        >
-          <img src="pen.png" alt="" class="btn-img" />
-          <span></span>
-        </button>
+        <button id="modalButton" class="status" onclick="handleButtonClick()">
+        <img src="folder.png" alt="" class="btn-img" />
+        <span></span>
+    </button>
+    
+      <button class="status" onclick="handleButtonClick2()">
+        <img src="profile.png" alt="" class="btn-img" />
+        <span></span>
+      </button>
+      <button class="status" onclick="navigateTo('edit/edit.html')">
+        <img src="pen.png" alt="" class="btn-img" />
+        <span></span>
+      </button>
         <button class="more" id="more-btn">
           <img src="menu.png" alt="" class="btn-img" />
         </button>
@@ -93,7 +85,7 @@
   <div id="profileModal" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal2()">&times;</span>
-      <iframe src="edit/edit.html" class="frame"></iframe>
+      <iframe src="https://faculty-members-ece.vercel.app/" class="frame"></iframe>
     </div>
   </div>
     <script src="scripts.js"></script>
