@@ -28,20 +28,29 @@
         <div class="designation" style="margin-bottom: 10px; user-select: none;">Nawaz Talukder Sanglap sir
         </div>
       </div>
-      <div class="options">
+     <div class="options">
         <button id="modalButton" class="status" onclick="handleButtonClick()">
-        <img src="folder.png" alt="" class="btn-img" />
-        <span></span>
-    </button>
-    
-      <button class="status" onclick="handleButtonClick2()">
-        <img src="profile.png" alt="" class="btn-img" />
-        <span></span>
-      </button>
-      <button class="status" onclick="navigateTo('edit/edit.html')">
-        <img src="pen.png" alt="" class="btn-img" />
-        <span></span>
-      </button>
+          <i class="material-icons">folder</i>
+          <span class="btn-name">Files</span>
+        </button>
+
+        <button class="status" onclick="handleButtonClick2()">
+          <i class="material-icons">person</i>
+          <span class="btn-name">Profile</span>
+        </button>
+
+        <button
+          class="status"
+          onclick="navigateTo('edit/edit.html')"
+        >
+          <i class="material-icons">edit</i>
+          <span class="btn-name">Edit profile</span>
+        </button>
+
+        <button class="more" id="more-btn">
+          <i class="material-icons">list</i>
+          <span class="btn-name">More</span>
+        </button>
         <button class="more" id="more-btn">
           <img src="menu.png" alt="" class="btn-img" />
         </button>
